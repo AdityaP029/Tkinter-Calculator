@@ -28,8 +28,7 @@ def btnpercentage(number):
 
 root = Tk()
 
-root.wm_iconbitmap('Calculator.ico')
-root.title('Simple Calculator')
+root.title('Calculator')
 root.resizable(width=False, height=False)
 root.attributes('-alpha', 0.9)
 text_input = StringVar()
