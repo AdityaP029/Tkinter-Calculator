@@ -5,8 +5,6 @@ from tkinter.filedialog import asksaveasfile
 
 root = Tk()
 root.geometry('400x500')
-icon = PhotoImage(file='notepad_icon.png')
-root.iconphoto(False, icon)
 root.title('Untitled-Jotter')
 
 
