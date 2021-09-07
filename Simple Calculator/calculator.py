@@ -447,14 +447,14 @@ button_AC.place(
 
 button_clear = PhotoImage(
     file=relative_to_assets("clear.png"))
-button_20 = Button(
+button_c = Button(
     image=button_clear,
     borderwidth=0,
     highlightthickness=0,
     command=delete,
     relief="flat"
 )
-button_20.place(
+button_c.place(
     x=2.842170943040401e-14,
     y=397.0,
     width=94.0,
